@@ -1,7 +1,5 @@
 import java.util.List;
 
-import com.google.common.collect.Lists;
-
 /**
  * @author wangqingwei
  * Created on 2021-05-31
@@ -9,12 +7,18 @@ import com.google.common.collect.Lists;
 public class Test {
 
     public static void main(String[] args) {
-        Node head = new Node(1, 0, true, Lists.newArrayList());
-        List<Node> next = Lists.newArrayList();
-        next.add(new Node(1, 0, false, null));
-        next.add(new Node(2, 0, false, null));
-        head.setNext(next);
-        process(head);
+//        Node head = new Node(1, 0, true, Lists.newArrayList());
+//        List<Node> next = Lists.newArrayList();
+//        next.add(new Node(1, 0, false, null));
+//        next.add(new Node(2, 0, false, null));
+//        head.setNext(next);
+//        process(head);
+        String heap1 = new String("ab");
+        System.out.println(heap1);
+        String normal = "ab";
+        System.out.println(normal);
+        System.out.println(heap1 == normal);
+        System.out.println(heap1.intern() == normal);
     }
 
 
