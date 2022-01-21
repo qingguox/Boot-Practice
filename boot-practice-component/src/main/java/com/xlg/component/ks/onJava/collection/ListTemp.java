@@ -9,8 +9,7 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author wangqingwei <wangqingwei@kuaishou.com>
- * Created on 2021-12-14
+ * @author wangqingwei
  */
 public class ListTemp {
 

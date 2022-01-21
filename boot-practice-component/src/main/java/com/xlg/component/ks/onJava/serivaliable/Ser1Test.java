@@ -7,7 +7,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 /**
- * @author wangqingwei <wangqingwei@kuaishou.com>
+ * @author wangqingwei
  * Created on 2021-12-08
  */
 public class Ser1Test {

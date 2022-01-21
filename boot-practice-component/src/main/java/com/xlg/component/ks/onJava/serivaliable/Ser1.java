@@ -6,7 +6,7 @@ import java.io.ObjectInput;
 import java.io.ObjectOutput;
 
 /**
- * @author wangqingwei <wangqingwei@kuaishou.com>
+ * @author wangqingwei
  * Created on 2021-12-08
  */
 public class Ser1 implements Externalizable {

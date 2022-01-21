@@ -1,7 +1,7 @@
 package com.xlg.component.ks.onJava.inter;
 
 /**
- * @author wangqingwei <wangqingwei@kuaishou.com>
+ * @author wangqingwei
  * Created on 2021-12-05
  */
 public interface Indicator {

@@ -3,7 +3,7 @@ package com.xlg.component.ks.onJava.classInfo;
 import java.util.Random;
 
 /**
- * @author wangqingwei <wangqingwei@kuaishou.com>
+ * @author wangqingwei
  * Created on 2021-11-14
  */
 public class ClassInitialization {
