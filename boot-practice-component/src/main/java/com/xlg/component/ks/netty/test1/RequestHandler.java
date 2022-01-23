@@ -1,4 +1,4 @@
-package com.xlg.component.ks.netty;
+package com.xlg.component.ks.netty.test1;
 
 import io.netty.handler.codec.http.FullHttpRequest;
 

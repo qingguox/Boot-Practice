@@ -1,4 +1,4 @@
-package com.xlg.component.ks.netty;
+package com.xlg.component.ks.netty.test1;
 
 import static io.netty.handler.codec.http.HttpResponseStatus.INTERNAL_SERVER_ERROR;
 import static io.netty.handler.codec.http.HttpResponseStatus.OK;
