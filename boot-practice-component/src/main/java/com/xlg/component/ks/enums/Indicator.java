@@ -1,5 +1,6 @@
 package com.xlg.component.ks.enums;
 
+import com.xlg.component.ks.utils.EnumUtils;
 import com.xlg.component.ks.utils.IntDescValue;
 
 /**
@@ -22,6 +23,10 @@ public enum Indicator implements IntDescValue {
 
     private int value;
     private String desc;
+
+    static Indicator fromValue(int value) {
+        return EnumUtils.fromValue(Indicator.class, value, UNKNOWN);
+    }
 
     @Override
     public String getDesc() {
