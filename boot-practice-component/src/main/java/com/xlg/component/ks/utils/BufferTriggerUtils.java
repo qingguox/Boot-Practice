@@ -5,15 +5,12 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 
 import org.apache.commons.collections4.CollectionUtils;
-
-import com.google.common.util.concurrent.ListenableFutureTask;
 
 /**
  * @author wangqingwei
@@ -31,16 +28,16 @@ public class BufferTriggerUtils {
         }
 
         // TODO 可以自己实现一个线程池试试
-        ExecutorService executorService = Executors.newSingleThreadExecutor();
-        List<? extends Future<?>> futureList =
-                data.stream().map(oneData -> executorService.submit(ListenableFutureTask.create(() -> {
+        ExecutorService executorService = ThreadExecutorHolder.getIndicatorProcessExecutor();
+        List<Future<T>> futureList =
+                data.stream().map(oneData -> executorService.submit(() -> {
                     try {
                         consumer.accept(oneData);
                         return oneData;
                     } catch (Exception e) {
                         return null;
                     }
-                }))).collect(Collectors.toList());
+                })).collect(Collectors.toList());
         List<T> successList = new ArrayList<>(futureList.size());
         futureList.forEach(task -> {
             try {
