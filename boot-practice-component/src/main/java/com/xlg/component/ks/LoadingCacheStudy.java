@@ -6,6 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.RemovalListener;
@@ -101,11 +102,6 @@ public class LoadingCacheStudy {
 
     public static com.google.common.cache.LoadingCache<String, Long> getGraphs() {
         return graphs;
-    }
-
-    @org.junit.Test
-    public void BBB() {
-
     }
 
 
