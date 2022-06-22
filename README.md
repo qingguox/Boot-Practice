@@ -23,6 +23,9 @@ csdn地址:  [https://blog.csdn.net/qq_41773026/article/details/117250511?spm=10
 
 ok，此时git下拉完毕，准备IDEA打开项目，构建多模块项目。
 
+> 注意.idea 下的文件, 不要提交
+> https://blog.csdn.net/Maxiao1204/article/details/116995886?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-116995886-blog-89487264.pc_relevant_antiscanv4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-116995886-blog-89487264.pc_relevant_antiscanv4&utm_relevant_index=2
+
 ## 2-2 构建项目
 > 首先，我们把此项目变为 maven项目， 
 >![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525110713822.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxNzczMDI2,size_16,color_FFFFFF,t_70)
