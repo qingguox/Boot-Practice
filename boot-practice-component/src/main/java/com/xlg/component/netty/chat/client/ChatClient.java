@@ -47,6 +47,7 @@ public class ChatClient {
         CountDownLatch WAIT_FOR_LOGIN = new CountDownLatch(1);
         AtomicBoolean LOGIN = new AtomicBoolean(false);
         AtomicBoolean EXIT = new AtomicBoolean(false);
+        Scanner scanner = new Scanner(System.in);
         try {
             Bootstrap bootstrap = new Bootstrap();
             bootstrap.channel(NioSocketChannel.class);
@@ -96,15 +97,21 @@ public class ChatClient {
                         public void channelActive(ChannelHandlerContext ctx) throws Exception {
                             // 开辟额外线程，用于用户登陆及后续操作
                             new Thread(() -> {
-                                Scanner scanner = new Scanner(System.in);
-                                System.out.println("请输入用户名");
+                                System.out.println("请输入用户名:");
                                 String username = scanner.nextLine();
-                                System.out.println("请输入密码");
+                                if(EXIT.get()){
+                                    return;
+                                }
+                                System.out.println("请输入密码:");
                                 String password = scanner.nextLine();
-                                // 创建包含登录信息的请求体
+                                if(EXIT.get()){
+                                    return;
+                                }
+                                // 构造消息对象
                                 LoginRequestMessage message = new LoginRequestMessage(username, password);
+                                System.out.println(message);
+                                // 发送消息
                                 ctx.writeAndFlush(message);
-
                                 System.out.println("等待后续操作...");
                                 try {
                                     WAIT_FOR_LOGIN.await();
@@ -125,7 +132,15 @@ public class ChatClient {
                                         System.out.println("gquit [group name]");
                                         System.out.println("quit");
                                         System.out.println("==================================");
-                                        String command = scanner.nextLine();
+                                        String command = null;
+                                        try {
+                                            command = scanner.nextLine();
+                                        } catch (Exception e) {
+                                            break;
+                                        }
+                                        if(EXIT.get()){
+                                            return;
+                                        }
                                         // 获得指令及其参数，并发送对应类型消息
                                         String[] commands = command.split(" ");
                                         switch (commands[0]){
