@@ -127,8 +127,7 @@
         <dependency>
             <groupId>io.github.qingguox</groupId>
             <artifactId>Crescent-Toolkit</artifactId>
-            <version>1.0.41-RELEASE</version>
-            <type>pom</type>
+            <version>1.0.611-RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
