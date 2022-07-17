@@ -1,6 +1,0 @@
-com/xlg/cms/api/model/Result.class
-com/xlg/cms/api/controller/RedisController.class
-com/xlg/cms/api/Application.class
-com/xlg/cms/api/config/RedisConfig.class
-com/xlg/cms/api/config/ContextConfig.class
-com/xlg/cms/api/service/RedisService.class

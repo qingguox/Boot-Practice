@@ -1,0 +1,90 @@
+2022-06-12 16:58:14,077 DEBUG [main] i.n.u.i.l.InternalLoggerFactory [InternalLoggerFactory.java : 43] Using SLF4J as the default logging framework
+2022-06-12 16:58:14,082 DEBUG [main] i.n.u.i.InternalThreadLocalMap [InternalThreadLocalMap.java : 54] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-12 16:58:14,082 DEBUG [main] i.n.u.i.InternalThreadLocalMap [InternalThreadLocalMap.java : 57] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-12 16:58:14,100 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 996] Platform: MacOS
+2022-06-12 16:58:14,102 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 395] -Dio.netty.noUnsafe: false
+2022-06-12 16:58:14,102 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 851] Java version: 8
+2022-06-12 16:58:14,103 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 120] sun.misc.Unsafe.theUnsafe: available
+2022-06-12 16:58:14,104 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 144] sun.misc.Unsafe.copyMemory: available
+2022-06-12 16:58:14,105 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 182] java.nio.Buffer.address: available
+2022-06-12 16:58:14,105 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 243] direct buffer constructor: available
+2022-06-12 16:58:14,106 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 313] java.nio.Bits.unaligned: available, true
+2022-06-12 16:58:14,106 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 378] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-12 16:58:14,106 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 385] java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-12 16:58:14,106 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 1028] sun.misc.Unsafe: available
+2022-06-12 16:58:14,107 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 1147] -Dio.netty.tmpdir: /var/folders/_p/v_vys4_52fx9h678ysxcz7q00000gn/T (java.io.tmpdir)
+2022-06-12 16:58:14,107 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 1226] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-12 16:58:14,108 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 173] -Dio.netty.maxDirectMemory: 3817865216 bytes
+2022-06-12 16:58:14,109 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 180] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-12 16:58:14,109 DEBUG [main] io.netty.util.internal.CleanerJava6 [CleanerJava6.java : 92] java.nio.ByteBuffer.cleaner(): available
+2022-06-12 16:58:14,110 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 200] -Dio.netty.noPreferDirect: false
+2022-06-12 16:58:14,121 DEBUG [main] io.netty.util.ResourceLeakDetector [ResourceLeakDetector.java : 129] -Dio.netty.leakDetection.level: simple
+2022-06-12 16:58:14,121 DEBUG [main] io.netty.util.ResourceLeakDetector [ResourceLeakDetector.java : 130] -Dio.netty.leakDetection.targetRecords: 4
+2022-06-12 16:58:14,124 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 142] -Dio.netty.allocator.numHeapArenas: 24
+2022-06-12 16:58:14,124 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 143] -Dio.netty.allocator.numDirectArenas: 24
+2022-06-12 16:58:14,124 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 145] -Dio.netty.allocator.pageSize: 8192
+2022-06-12 16:58:14,124 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 150] -Dio.netty.allocator.maxOrder: 11
+2022-06-12 16:58:14,125 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 154] -Dio.netty.allocator.chunkSize: 16777216
+2022-06-12 16:58:14,125 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 155] -Dio.netty.allocator.tinyCacheSize: 512
+2022-06-12 16:58:14,125 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 156] -Dio.netty.allocator.smallCacheSize: 256
+2022-06-12 16:58:14,125 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 157] -Dio.netty.allocator.normalCacheSize: 64
+2022-06-12 16:58:14,125 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 158] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-12 16:58:14,125 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 159] -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-12 16:58:14,125 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 160] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-12 16:58:14,125 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 161] -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-12 16:58:14,126 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 162] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-12 16:58:14,137 DEBUG [main] io.netty.buffer.ByteBufUtil [ByteBufUtil.java : 85] -Dio.netty.allocator.type: pooled
+2022-06-12 16:58:14,137 DEBUG [main] io.netty.buffer.ByteBufUtil [ByteBufUtil.java : 94] -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-12 16:58:14,137 DEBUG [main] io.netty.buffer.ByteBufUtil [ByteBufUtil.java : 97] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-12 16:58:14,141 DEBUG [main] io.netty.util.Recycler [Recycler.java : 96] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-12 16:58:14,142 DEBUG [main] io.netty.util.Recycler [Recycler.java : 97] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-12 16:58:14,142 DEBUG [main] io.netty.util.Recycler [Recycler.java : 98] -Dio.netty.recycler.linkCapacity: 16
+2022-06-12 16:58:14,142 DEBUG [main] io.netty.util.Recycler [Recycler.java : 99] -Dio.netty.recycler.ratio: 8
+2022-06-12 16:58:14,151 DEBUG [main] io.netty.buffer.AbstractByteBuf [AbstractByteBuf.java : 62] -Dio.netty.buffer.checkAccessible: true
+2022-06-12 16:58:14,152 DEBUG [main] io.netty.buffer.AbstractByteBuf [AbstractByteBuf.java : 63] -Dio.netty.buffer.checkBounds: true
+2022-06-12 16:58:14,153 DEBUG [main] i.n.util.ResourceLeakDetectorFactory [ResourceLeakDetectorFactory.java : 195] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@a2431d0
+2022-06-12 17:03:51,376 DEBUG [main] i.n.u.i.l.InternalLoggerFactory [InternalLoggerFactory.java : 43] Using SLF4J as the default logging framework
+2022-06-12 17:03:51,381 DEBUG [main] i.n.u.i.InternalThreadLocalMap [InternalThreadLocalMap.java : 54] -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-12 17:03:51,381 DEBUG [main] i.n.u.i.InternalThreadLocalMap [InternalThreadLocalMap.java : 57] -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-12 17:03:51,399 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 996] Platform: MacOS
+2022-06-12 17:03:51,400 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 395] -Dio.netty.noUnsafe: false
+2022-06-12 17:03:51,401 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 851] Java version: 8
+2022-06-12 17:03:51,402 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 120] sun.misc.Unsafe.theUnsafe: available
+2022-06-12 17:03:51,402 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 144] sun.misc.Unsafe.copyMemory: available
+2022-06-12 17:03:51,403 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 182] java.nio.Buffer.address: available
+2022-06-12 17:03:51,403 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 243] direct buffer constructor: available
+2022-06-12 17:03:51,404 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 313] java.nio.Bits.unaligned: available, true
+2022-06-12 17:03:51,404 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 378] jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2022-06-12 17:03:51,404 DEBUG [main] i.n.util.internal.PlatformDependent0 [PlatformDependent0.java : 385] java.nio.DirectByteBuffer.<init>(long, int): available
+2022-06-12 17:03:51,405 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 1028] sun.misc.Unsafe: available
+2022-06-12 17:03:51,405 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 1147] -Dio.netty.tmpdir: /var/folders/_p/v_vys4_52fx9h678ysxcz7q00000gn/T (java.io.tmpdir)
+2022-06-12 17:03:51,405 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 1226] -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-12 17:03:51,407 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 173] -Dio.netty.maxDirectMemory: 3817865216 bytes
+2022-06-12 17:03:51,407 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 180] -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-12 17:03:51,408 DEBUG [main] io.netty.util.internal.CleanerJava6 [CleanerJava6.java : 92] java.nio.ByteBuffer.cleaner(): available
+2022-06-12 17:03:51,408 DEBUG [main] i.n.util.internal.PlatformDependent [PlatformDependent.java : 200] -Dio.netty.noPreferDirect: false
+2022-06-12 17:03:51,419 DEBUG [main] io.netty.util.ResourceLeakDetector [ResourceLeakDetector.java : 129] -Dio.netty.leakDetection.level: simple
+2022-06-12 17:03:51,419 DEBUG [main] io.netty.util.ResourceLeakDetector [ResourceLeakDetector.java : 130] -Dio.netty.leakDetection.targetRecords: 4
+2022-06-12 17:03:51,422 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 142] -Dio.netty.allocator.numHeapArenas: 24
+2022-06-12 17:03:51,422 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 143] -Dio.netty.allocator.numDirectArenas: 24
+2022-06-12 17:03:51,422 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 145] -Dio.netty.allocator.pageSize: 8192
+2022-06-12 17:03:51,422 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 150] -Dio.netty.allocator.maxOrder: 11
+2022-06-12 17:03:51,422 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 154] -Dio.netty.allocator.chunkSize: 16777216
+2022-06-12 17:03:51,422 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 155] -Dio.netty.allocator.tinyCacheSize: 512
+2022-06-12 17:03:51,422 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 156] -Dio.netty.allocator.smallCacheSize: 256
+2022-06-12 17:03:51,423 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 157] -Dio.netty.allocator.normalCacheSize: 64
+2022-06-12 17:03:51,423 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 158] -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-12 17:03:51,423 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 159] -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-12 17:03:51,423 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 160] -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-12 17:03:51,423 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 161] -Dio.netty.allocator.useCacheForAllThreads: true
+2022-06-12 17:03:51,423 DEBUG [main] i.n.buffer.PooledByteBufAllocator [PooledByteBufAllocator.java : 162] -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-12 17:03:51,433 DEBUG [main] io.netty.buffer.ByteBufUtil [ByteBufUtil.java : 85] -Dio.netty.allocator.type: pooled
+2022-06-12 17:03:51,433 DEBUG [main] io.netty.buffer.ByteBufUtil [ByteBufUtil.java : 94] -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-12 17:03:51,433 DEBUG [main] io.netty.buffer.ByteBufUtil [ByteBufUtil.java : 97] -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-12 17:03:51,437 DEBUG [main] io.netty.util.Recycler [Recycler.java : 96] -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-12 17:03:51,437 DEBUG [main] io.netty.util.Recycler [Recycler.java : 97] -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2022-06-12 17:03:51,437 DEBUG [main] io.netty.util.Recycler [Recycler.java : 98] -Dio.netty.recycler.linkCapacity: 16
+2022-06-12 17:03:51,438 DEBUG [main] io.netty.util.Recycler [Recycler.java : 99] -Dio.netty.recycler.ratio: 8
+2022-06-12 17:03:51,449 DEBUG [main] io.netty.buffer.AbstractByteBuf [AbstractByteBuf.java : 62] -Dio.netty.buffer.checkAccessible: true
+2022-06-12 17:03:51,449 DEBUG [main] io.netty.buffer.AbstractByteBuf [AbstractByteBuf.java : 63] -Dio.netty.buffer.checkBounds: true
+2022-06-12 17:03:51,450 DEBUG [main] i.n.util.ResourceLeakDetectorFactory [ResourceLeakDetectorFactory.java : 195] Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10d59286
