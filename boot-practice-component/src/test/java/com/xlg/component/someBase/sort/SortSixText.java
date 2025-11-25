@@ -1,10 +1,6 @@
 package com.xlg.component.someBase.sort;
 
-import org.apache.commons.lang3.StringUtils;
-
 import java.util.*;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;

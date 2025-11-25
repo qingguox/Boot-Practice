@@ -63,7 +63,6 @@ public class BinaryTreeTest {
                 count--;
             }
             res.add(list);
-
         }
         return res;
     }
